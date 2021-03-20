@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import { Spinner } from "react-bootstrap";
 import { useHistory, useLocation } from "react-router";
 import { userContext } from "../../App";
 import google from "../../img/symble/google.png";
@@ -22,6 +23,8 @@ const Login = () => {
     photo: "",
     success: false,
   });
+
+  const [loadingSpinner, setLoadingSpinner] = useState(false);
 
   const history = useHistory();
   const location = useLocation();
@@ -50,24 +53,28 @@ const Login = () => {
 
     if (user.password === user.confirmPassword) {
       if (newUser && user.name && user.email && user.password) {
+        setLoadingSpinner(true);
         createUserWithEmailAndPassword(
           user.name,
           user.email,
           user.password
         ).then((res) => {
           setUser(res);
-          const newUserInfo = {...res};
+          const newUserInfo = { ...res };
           newUserInfo.displayName = user.name;
           setLoggedInUser(newUserInfo);
           history.replace(from);
+          setLoadingSpinner(false);
         });
       }
     }
     if (!newUser && user.email && user.password) {
+      setLoadingSpinner(true);
       signInWithEmailAndPassword(user.email, user.password).then((res) => {
         setUser(res);
         setLoggedInUser(res);
         history.replace(from);
+        setLoadingSpinner(false);
       });
     }
   };
@@ -158,6 +165,11 @@ const Login = () => {
             <p className="text-center text-success">
               User {newUser ? "Created" : "Logged In"} Successfully
             </p>
+          )}
+          {loadingSpinner && (
+            <div className="text-center">
+              <Spinner animation="border" variant="primary" />
+            </div>
           )}
         </div>
       </div>
