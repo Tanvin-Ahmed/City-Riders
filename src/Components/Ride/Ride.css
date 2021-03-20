@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.result{
+    width: 100%;
+}
+.result img{
+    width: 2rem;
+    text-align: center;
+}

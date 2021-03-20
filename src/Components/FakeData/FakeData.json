@@ -1,0 +1,121 @@
+[{
+    "id": 1,
+    "vehicle": "Car",
+    "img": "https://www.freepnglogos.com/uploads/car-png/car-transparent-png-pictures-icons-and-png-backgrounds-6.png",
+    "cost": "75",
+    "capacity": "5"
+  }, {
+    "id": 2,
+    "vehicle": "Car",
+    "img": "https://www.freepnglogos.com/uploads/car-png/car-png-large-images-40.png",
+    "cost": "65",
+    "capacity": "4"
+  }, {
+    "id": 3,
+    "vehicle": "Car",
+    "img": "https://www.freepnglogos.com/uploads/car-png/bugatti-chiron-blue-car-png-image-pngpix-33.png",
+    "cost": "70",
+    "capacity": "2"
+  }, {
+    "id": 4,
+    "vehicle": "Car",
+    "img": "https://www.freepnglogos.com/uploads/car-png/car-png-coniston-bill-garage-service-repair-centre-7.png",
+    "cost": "50",
+    "capacity": "4"
+  }, {
+    "id": 5,
+    "vehicle": "Car",
+    "img": "freepnglogos.com/uploads/car-png/car-transparent-png-pictures-icons-and-png-backgrounds-30.png",
+    "cost": "50",
+    "capacity":"4"
+  }, {
+    "id": 6,
+    "vehicle": "Bike",
+    "img": "https://www.freepnglogos.com/uploads/bike-png/honda-cbr-sport-bike-png-image-pngpix-22.png",
+    "cost": "40",
+    "capacity": "1"
+  }, {
+    "id": 7,
+    "vehicle": "Bike",
+    "img": "https://www.freepnglogos.com/uploads/bike-png/ducati-streetfighter-motorcycle-bike-png-image-png-15.png",
+    "cost": "30",
+    "capacity": "1"
+  }, {
+    "id": 8,
+    "vehicle": "Bike",
+    "img": "https://www.freepnglogos.com/uploads/bike-png/royal-enfield-classic-black-motorcycle-bike-png-image-25.png",
+    "cost": "28",
+    "capacity": "1"
+  }, {
+    "id": 9,
+    "vehicle": "Bike",
+    "img": "https://www.freepnglogos.com/uploads/bike-png/motorcycle-bike-png-image-pngpix-33.png",
+    "cost": "45",
+    "capacity": "1"
+  }, {
+    "id": 10,
+    "vehicle": "Bike",
+    "img": "https://www.freepnglogos.com/uploads/bike-png/royal-enfield-classic-motorcycle-bike-png-image-pngpix-14.png",
+    "cost": "36",
+    "capacity": "1"
+  }, {
+    "id": 11,
+    "vehicle": "Bus",
+    "img": "https://www.freepnglogos.com/uploads/bus-png/the-bus-with-its-eyes-closed-andrea-longini-10.png",
+    "cost": "80",
+    "capacity":"20"
+  }, {
+    "id": 12,
+    "vehicle": "Bus",
+    "img": "https://www.freepnglogos.com/uploads/bus-png/old-bus-png-icons-and-png-backgrounds-20.png",
+    "cost": "50",
+    "capacity":"40"
+  }, {
+    "id": 13,
+    "vehicle": "Bus",
+    "img": "https://www.freepnglogos.com/uploads/bus-png/bus-images-blue-download-pictures-7.png",
+    "cost": "60",
+    "capacity":"35"
+  }, {
+    "id": 14,
+    "vehicle": "Bus",
+    "img": "https://www.freepnglogos.com/uploads/bus-png/bus-affordable-and-direct-travel-long-distance-36.png",
+    "cost": "65",
+    "capacity":"40"
+  }, {
+    "id": 15,
+    "vehicle": "Bus",
+    "img": "https://www.freepnglogos.com/uploads/bus-png/city-bus-png-icons-and-png-backgrounds-31.png",
+    "cost": "50",
+    "capacity":"50"
+  }, {
+    "id": 16,
+    "vehicle": "Train",
+    "img": "https://www.freepnglogos.com/uploads/train-png/png-train-transparent-train-images-pluspng-25.png",
+    "cost": "25",
+    "capacity":"400"
+  }, {
+    "id": 17,
+    "vehicle": "Train",
+    "img": "https://www.freepnglogos.com/uploads/train-png/train-png-web-icons-png-16.png",
+    "cost": "35",
+    "capacity":"350"
+  }, {
+    "id": 18,
+    "vehicle": "Train",
+    "img": "https://www.freepnglogos.com/uploads/train-png/llangollen-railways-train-transparent-image-13.png",
+    "cost": "20",
+    "capacity":"600"
+  }, {
+    "id": 19,
+    "vehicle": "Train",
+    "img": "https://www.freepnglogos.com/uploads/train-png/train-sbb-cff-ffs-rabe-wikipedia-3.png",
+    "cost": "30",
+    "capacity":"650"
+  }, {
+    "id": 20,
+    "vehicle": "Train",
+    "img": "https://www.freepnglogos.com/uploads/train-png/fast-train-png-clipart-best-web-clipart-32.png",
+    "cost": "33",
+    "capacity":"700"
+  }]
