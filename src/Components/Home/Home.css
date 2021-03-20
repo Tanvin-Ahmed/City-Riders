@@ -5,6 +5,9 @@
 }
 .home{
     background-image: linear-gradient(rgb(30, 144, 255), rgba(0, 123, 255, 0.287)), url("../../img//bg/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 }
 .rides{
