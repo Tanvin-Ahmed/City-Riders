@@ -45,7 +45,7 @@ const Ride = () => {
   return (
     <div className="row container-fluid mt-5">
       <div className="col-lg-3 col-sm-12">
-        <div className="part bg-primary p-3 text-light rounded">
+        <div className="part bg-primary p-3 text-light rounded my-3">
           {!search ? (
             <form onSubmit={submit}>
               <div className="my-2">
@@ -95,7 +95,7 @@ const Ride = () => {
         </div>
       </div>
       <div className="col-lg-9 col-sm-12">
-        <div className="part my-5">
+        <div className="part my-3">
           <ShowMap></ShowMap>
         </div>
       </div>

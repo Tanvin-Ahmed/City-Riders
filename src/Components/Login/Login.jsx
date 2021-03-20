@@ -48,6 +48,14 @@ const Login = () => {
     }
   };
 
+  const handleResponse = (res, redirect) => {
+    setUser(res);
+    setLoggedInUser(res);
+    if (redirect) {
+      history.replace(from);
+    }
+}
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -71,9 +79,7 @@ const Login = () => {
     if (!newUser && user.email && user.password) {
       setLoadingSpinner(true);
       signInWithEmailAndPassword(user.email, user.password).then((res) => {
-        setUser(res);
-        setLoggedInUser(res);
-        history.replace(from);
+        handleResponse(res, true);
         setLoadingSpinner(false);
       });
     }
@@ -81,9 +87,7 @@ const Login = () => {
 
   const signInWithGoogle = () => {
     handleSignInWithGoogle().then((res) => {
-      setUser(res);
-      setLoggedInUser(res);
-      history.replace(from);
+      handleResponse(res, true);
     });
   };
 
