@@ -10,4 +10,4 @@ It's like any ride services company web site. It's authentication system feel yo
 * Email and Password authentication and Google authentication from firebase
 
 #### You wanna see this cool project..!?
-click here [City Riders](https://github.com/facebook/create-react-app).
+click here [City Riders](https://tender-ritchie-224553.netlify.app/).
