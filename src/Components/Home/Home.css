@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .home{
-    background-image: linear-gradient(rgb(0, 123, 255), rgba(0, 123, 255, 0.287)), url("../../img//bg/bg.png");
+    background-image: linear-gradient(rgb(30, 144, 255), rgba(0, 123, 255, 0.287)), url("../../img//bg/bg.png");
     height: 100vh;
 }
 .rides{

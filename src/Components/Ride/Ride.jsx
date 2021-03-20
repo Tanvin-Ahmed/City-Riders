@@ -4,6 +4,7 @@ import arrow from "../../img/symble/pngegg.png";
 import "./Ride.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleLeft } from "@fortawesome/free-solid-svg-icons";
+import ShowMap from "../ShowMap/ShowMap";
 
 const Ride = () => {
   const [search, setSearch] = useState(false);
@@ -69,6 +70,11 @@ const Ride = () => {
               <RideOption></RideOption>
             </>
           )}
+        </div>
+      </div>
+      <div className="col-lg-9 col-sm-12">
+        <div className="part my-5">
+          <ShowMap></ShowMap>
         </div>
       </div>
     </div>
