@@ -11,12 +11,13 @@ body{
 nav{
     background-color: dodgerblue;
     height: 80px;
+    z-index: 10000;
 }
 label.logo{
     color: white;
     font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
+    line-height: 50px;
+    padding: 0 1rem;
     font-weight: bold;
     cursor: pointer;
 }
@@ -26,6 +27,7 @@ nav img{
 nav ul{
     float: right;
     margin-right: 20px;
+    z-index: 10000;
 }
 nav ul li{
     display: inline-block;

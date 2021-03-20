@@ -11,6 +11,8 @@ const Ride = () => {
   const [place, setPlace] = useState({
     from: "",
     to: "",
+    date: "",
+    time: ""
   });
   const formData = (e) => {
     const info = { ...place };
@@ -23,6 +25,22 @@ const Ride = () => {
       setSearch(true);
     }
   };
+
+
+
+   const getDateTime = () => {
+    const d = new Date();
+    const day = d.getDate();
+    const month = d.getMonth() + 1;
+    const year = d.getFullYear();
+    const date = day + "/" + month + "/" + year;
+    const t = d.toLocaleTimeString();
+
+    const info = { ...place };
+    info.date = date;
+    info.time = t;
+    setPlace(info);
+  }
 
   return (
     <div className="row container-fluid mt-5">
@@ -51,7 +69,7 @@ const Ride = () => {
                 />
               </div>
               <input
-                onClick={submit}
+                onClick={submit, getDateTime}
                 type="submit"
                 value="Search"
                 className="form-control btn btn-warning my-2"
@@ -59,13 +77,17 @@ const Ride = () => {
             </form>
           ) : (
             <>
-              <div className="bg-primary rounded text-light result">
+              <div className="bg-primary rounded text-light result mb-5">
                 <button onClick={() => setSearch(false)} className="btn btn-light mb-3">
                   <FontAwesomeIcon icon={faArrowCircleLeft} />
                 </button>
                 <h5>From: {place.from}</h5>
                 <img src={arrow} alt="" />
                 <h5>To: {place.to}</h5>
+                <div className="d-flex justify-content-around align-items-center flex-wrap border p-2">
+                  <h6>Time: {place.time}</h6>
+                  <h6>Date: {place.date}</h6>
+                </div>
               </div>
               <RideOption></RideOption>
             </>

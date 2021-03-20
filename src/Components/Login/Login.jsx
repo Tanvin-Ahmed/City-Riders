@@ -113,7 +113,7 @@ const Login = () => {
             required
           />
           <input
-            type="text"
+            type="password"
             name="password"
             placeholder="Password"
             className="form-control my-2"
@@ -122,7 +122,7 @@ const Login = () => {
           />
           {newUser && (
             <input
-              type="text"
+              type="password"
               name="confirmPassword"
               placeholder="Confirm Password"
               className="form-control my-2"

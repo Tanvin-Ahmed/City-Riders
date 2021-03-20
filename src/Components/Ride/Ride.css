@@ -10,3 +10,7 @@
     width: 2rem;
     text-align: center;
 }
+.part {
+    margin: 0 auto;
+    z-index: -1;
+}

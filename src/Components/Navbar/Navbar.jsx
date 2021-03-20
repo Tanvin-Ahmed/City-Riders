@@ -15,7 +15,7 @@ const Navbar = () => {
       <label for="check" className="checkbtn">
       <FontAwesomeIcon icon={faBars} />
       </label>
-      <Link to="/">  <label className="logo"><img src={logo} alt=""/> City Riders</label></Link>
+      <Link to="/">  <label className="logo">City Riders</label></Link>
       <ul>
         <li>
           <Link className="active" aria-current="page" to="/home">

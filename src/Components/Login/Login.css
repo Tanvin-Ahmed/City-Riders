@@ -34,3 +34,12 @@
 .google-btn:hover{
     background-color: rgb(200, 200, 200);
 }
+
+@media(max-width: 387px){
+    .form-container{
+        width: 15rem;
+    }
+    .google-btn{
+        padding: 0.3rem 1rem;
+    }
+}
