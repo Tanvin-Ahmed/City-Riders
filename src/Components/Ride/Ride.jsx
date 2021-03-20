@@ -77,7 +77,7 @@ const Ride = () => {
             </form>
           ) : (
             <>
-              <div className="bg-primary rounded text-light result mb-5">
+              <div className="bg-primary rounded text-light result">
                 <button onClick={() => setSearch(false)} className="btn btn-light mb-3">
                   <FontAwesomeIcon icon={faArrowCircleLeft} />
                 </button>
